@@ -6,7 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
+| nazwa      | linux | debian 9 |
 | program (parametry sieci)      | niewiem |  |
 
 
@@ -15,11 +15,11 @@ Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
-| Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| Adres IP      | 10.00.02.15 | przydzielony przez DHCP |
+| Maska podsieci      | 10.0.2.255 |  |
+| Brama      | 10.0.2.2 |  |
+| DNS 1      | 10.0.0.8 |  |
+| DNS 2      | 10.0.0.4 |  |
 
 Schemat sieci
 -------------
