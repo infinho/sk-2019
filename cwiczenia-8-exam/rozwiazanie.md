@@ -20,11 +20,11 @@ PC0
 | eth9 | 172.22.160.1/19  |
 
 użyte komendy:
-ip addr add _ dev _ </br>
+``ip addr add _ dev _ </br>
 ip link set _ up </br>
 echo 1 > /proc/sys/net/ipv4/ip_forward </br>
 sysctl -w net.ipv4.ip_forward=1 (dla pewności właczyłem forwarding dwoma metodami, któraś z nich zadziałała) </br>
-iptables -t nat -A POSTROUTING -s _ -o _ -j MASQUERADE (x2) 
+iptables -t nat -A POSTROUTING -s _ -o _ -j MASQUERADE (x2) ``
 
 PC1  
 ----------------
@@ -33,8 +33,8 @@ PC1
 |eth3|172.22.128.2/23|
 
 użyte komendy: </br>
-ip addr add _ dev _ </br>
-ip route add default via _ dev _
+``ip addr add _ dev _ </br>
+ip route add default via _ dev _``
 
 PC2  
 ------------------
@@ -43,7 +43,7 @@ PC2
 | eth3 | 172.22.160.2/19 |
 
 użyte komendy: </br>
-ip addr add _ dev _ </br>
-ip route add default via _ dev _ </br> </br>
+``ip addr add _ dev _ </br>
+ip route add default via _ dev _ </br> </br>``
 
-całość została przetestowana komendą "ping google.pl" wyegzekwowaną na PC1 i PC2
+całość została przetestowana komendą ``ping google.pl`` wyegzekwowaną na PC1 i PC2
