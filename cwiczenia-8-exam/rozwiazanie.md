@@ -19,7 +19,7 @@ PC0
 | eth8 | 172.22.128.1/23  |
 | eth9 | 172.22.160.1/19  |
 
-użyte komendy:
+użyte komendy: </br>
 ``ip addr add _ dev _ ``</br>
 ``ip link set _ up`` </br>
 ``echo 1 > /proc/sys/net/ipv4/ip_forward ``</br>
