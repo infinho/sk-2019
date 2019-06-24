@@ -11,7 +11,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 Rozwiązanie
 -----------
 
-<b>PC0<b></br>  
+<b>PC0</b></br>  
 
 |  interfejs   | adres  |
 |:-------------| :------| 
