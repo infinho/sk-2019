@@ -47,3 +47,7 @@ użyte komendy: </br>
 ``ip route add default via _ dev _ ``</br> </br>
 
 całość została przetestowana komendą ``ping google.pl`` wyegzekwowaną na PC1 i PC2
+
+Schemat
+------------
+![diagram](rozwiazanie.jpg)
