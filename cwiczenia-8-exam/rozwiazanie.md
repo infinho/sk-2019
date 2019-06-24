@@ -11,8 +11,8 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 Rozwiązanie
 -----------
 
-PC0  
--------------------
+<b>PC0<b></br>  
+
 |  interfejs   | adres  |
 |:-------------| :------| 
 | eth3 | usługodawca zapewnia komunikację z siecią internet  |
